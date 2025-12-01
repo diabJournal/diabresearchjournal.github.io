@@ -134,4 +134,43 @@ input, textarea, select {
 .side-logo.right {
   right: 10%;
 }
+/* Two-column grid like your screenshot */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Bubble styling identical to your screenshot */
+.teamBubble {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 40px 30px;
+  background: white;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+  font-size: 1.1rem;
+}
+
+/* Name styling */
+.teamBubble h3 {
+  margin: 6px 0;
+  font-size: 1.3rem;
+}
+
+/* Role (italic) */
+.teamBubble p em {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Email link */
+.teamBubble a {
+  color: #0074d9;
+  text-decoration: none;
+}
+.teamBubble a:hover {
+  text-decoration: underline;
+}
 
