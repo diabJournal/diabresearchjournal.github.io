@@ -134,6 +134,7 @@ input, textarea, select {
 .side-logo.right {
   right: 10%;
 }
+
 /* Two-column grid like your screenshot */
 .team-grid {
   display: grid;
